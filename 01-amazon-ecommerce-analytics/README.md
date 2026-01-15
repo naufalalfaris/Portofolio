@@ -2,7 +2,7 @@
 
 > **Marketplace Intelligence • Pricing Optimization • Customer Behavior Analysis**
 
-![Img 1](01-amazon-ecommerce-analytics/Screenshoot/Img1.png)
+![Img 1](Screenshoot/Img1.png)
 
 ## 📋 Project Overview
 
@@ -103,7 +103,7 @@ Based on the analysis, key recommendations include:
 
 ---
 ## 📸 Dashboard Screenshots
-![Img 1](01-amazon-ecommerce-analytics/Screenshoot/Img1.png)
-![Img 2](01-amazon-ecommerce-analytics/Screenshoot/Img2.png)
-![Img 3](01-amazon-ecommerce-analytics/Screenshoot/Img3.png)
+![Img 1](Screenshoot/Img1.png)
+![Img 2](Screenshoot/Img2.png)
+![Img 3](Screenshoot/Img3.png)
 
