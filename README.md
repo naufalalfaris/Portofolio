@@ -96,7 +96,8 @@ GPA: 3.58/4.00 | 2021 - 2025
 
 - Fundamental Data Science - Coding Studio (Oct 2025)
 - Python Fundamentals - Coding Studio (Oct 2025)
-- AI Foundations - Dicoding Indonesia (Sep 2025)
+- Mastering Power Bi Report Design - Beginner To Advanced  – Udemy  (Nov 2025)
+- Fundamental Database Mysql – Coding Studio (Jan 2026)
 
 ---
 
