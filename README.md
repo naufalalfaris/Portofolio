@@ -1,4 +1,4 @@
-# 📊 Naufal Alfarisi - Data Analytics Portfolio
+# 📊 Naufal Alfarisi - Portfolio
 
 Welcome to my data analytics portfolio! I'm a recent Informatics graduate from Telkom University passionate about transforming data into actionable business insights.
 
