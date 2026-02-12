@@ -14,7 +14,7 @@ Business Intelligence Analyst specializing in:
 
 ## 🎯 Featured Projects
 
-### 1. 🛒 [Amazon E-commerce Analytics Dashboard](./01-amazon-ecommerce-analytics)
+### 1. 🛒 [E-commerce Analytics Dashboard](./01-amazon-ecommerce-analytics)
 **Business Intelligence | Power BI | Customer Analytics**
 
 Analyzed 1.46M+ products and 15M+ customer reviews to identify pricing optimization opportunities and customer behavior patterns.
@@ -31,7 +31,7 @@ Analyzed 1.46M+ products and 15M+ customer reviews to identify pricing optimizat
 
 ---
 
-### 2. 🚗 [BMW Global Sales Performance Dashboard](./02-bmw-sales-dashboard)
+### 2. 🚗 [Global Car Sales Performance Dashboard](./02-bmw-sales-dashboard)
 **Market Analytics | Forecasting | Power BI**
 
 15-year market analysis ($253M volume, $19T revenue) across 6 regions to identify trends and growth opportunities.
