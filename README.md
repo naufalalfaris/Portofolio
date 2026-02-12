@@ -4,7 +4,7 @@ Welcome to my data analytics portfolio! I'm a recent Informatics graduate from T
 
 ## 🚀 About Me
 
-Business Intelligence Analyst specializing in:
+Data Professional with experience in:
 - 📈 E-commerce & Customer Analytics
 - 💼 Business Intelligence Dashboards
 - 🔍 Data-Driven Decision Making
