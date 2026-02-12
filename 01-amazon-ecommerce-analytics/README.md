@@ -1,4 +1,4 @@
-# 🛒 Amazon E-commerce Analytics Dashboard
+# 🛒 E-commerce Analytics Dashboard
 
 > **Marketplace Intelligence • Pricing Optimization • Customer Behavior Analysis**
 
