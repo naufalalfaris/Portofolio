@@ -1,4 +1,4 @@
-# 🚗 BMW Global Sales Performance Dashboard
+# 🚗 Global Car Sales Performance Dashboard
 
 > **Market Analytics • Sales Forecasting • Regional Insights**
 
