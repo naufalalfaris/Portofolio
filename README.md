@@ -79,6 +79,24 @@ Multi-output regression models predicting heating/cooling loads from building pa
 [View Project →](./04-building-energy-analysis)
 
 ---
+### 5. 🛒 Retail Business Analytics
+**Business Intelligence | Customer Analytics | Data Visualization**
+
+End-to-end business intelligence project analyzing a **10,000+ retail transaction dataset** to uncover insights on pricing strategy, customer behavior, and profitability.
+
+**Key Features:**
+
+- 📊 Data cleaning and feature engineering in Excel for structured multi-dimensional analysis  
+- 🧮 Advanced Excel analytics using **SUMIF, COUNTIFS, AVERAGEIF, and INDEX-MATCH**  
+- 👥 Customer segmentation using **RFM methodology** on **5,994 unique customers**  
+- 📈 Interactive **5-page Power BI dashboard** with KPI cards, slicers, DAX measures, and cross-filtered visuals  
+- 💡 Key insight: **1–10% discount range generated $4.4M revenue with a 35% margin**, while **28% of customers were identified as Lost** for potential re-engagement  
+
+**Technologies:** Microsoft Excel (Advanced), Power BI, DAX, Business Intelligence, Data Analysis  
+
+[View Project →](./05-retail-business-analysis)
+
+---
 
 ## 📫 Contact Me
 
