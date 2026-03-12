@@ -1,8 +1,8 @@
 # 🛒 Retail Business Analytics
 
-![Img 1](Screenshoot/img1.png)
-
 **End-to-End Business Intelligence Project | Dec 2025**
+
+![Img 1](Screenshoot/img1.png)
 
 This project analyzes a **10,000+ retail transaction dataset** to uncover insights on pricing strategy, customer behavior, and profitability. The workflow covers the full analytics pipeline—from **data cleaning and feature engineering in Excel** to **interactive business intelligence dashboards in Power BI**.
 
