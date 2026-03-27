@@ -79,27 +79,6 @@ Data Points: 180+ monthly records per model
 - **Time Series:** Native Power BI forecasting + Python integration
 - **Statistical Analysis:** Trend analysis, YoY growth, CAGR
 
-### Dashboard Architecture
-
-**3-Page Dashboard:**
-1. **Executive Overview**
-   - Global KPIs (total volume, revenue, growth %)
-   - Regional breakdown
-   - Fuel type distribution
-   - YoY trends
-
-2. **Regional Deep Dive**
-   - Geographic heatmap
-   - Regional comparisons
-   - Growth rate analysis
-   - Market share evolution
-
-3. **Product Performance**
-   - Model-level sales
-   - Forecasting visuals
-   - Fuel type trends
-   - Revenue analysis
-
 ### Advanced Features
 - Time-series forecasting with confidence intervals
 - Drill-through from summary to detailed views
