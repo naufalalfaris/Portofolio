@@ -1,5 +1,7 @@
 # 🦠 COVID-19 Indonesia Analytics Dashboard
 
+![Img 1](Screenshoot/imgcvd1.png)
+
 ## Project Overview
 
 The COVID-19 pandemic generated a massive amount of public health data across Indonesia, creating opportunities to analyze infection trends, regional disparities, and the impact of different pandemic waves. However, raw datasets often contain missing values, inconsistent formats, and fields that are not immediately suitable for analysis.
@@ -133,7 +135,7 @@ An interactive dashboard was built in Looker Studio to provide a comprehensive v
 - Recoveries
 - Deaths
 - National trends over time
-
+  
 #### Page 2 — Pandemic Wave Analysis
 - Growth Factor analysis
 - Rolling Average trends
@@ -232,6 +234,17 @@ This insight highlights the importance of considering duration when interpreting
 
 ---
 
+## Dashboard
+#### Page 1 — National Overview
+![Img 1](Screenshoot/imgcvd1.png)
+#### Page 2 — Pandemic Wave Analysis
+![Img 2](Screenshoot/imgcvd2.png)
+### 3. Data Pipeline Development
+![Img 3](Screenshoot/imgcvd3.png)
+#### Page 4 — Deep-Dive Insights
+![Img 4](Screenshoot/imgcvd4.png)
+
+---
 ## Project Outcome
 
 This project demonstrates the complete data analytics lifecycle, from raw data preparation to executive-level reporting. By combining Python, SQL, BigQuery, and Looker Studio, the project delivers a scalable analytics solution capable of transforming complex public health data into clear, actionable insights.
