@@ -1,150 +1,237 @@
-# 📊 Naufal Alfarisi - Portfolio
+# 🦠 COVID-19 Indonesia Analytics Dashboard
 
-Welcome to my data analytics portfolio! I'm a recent Informatics graduate from Telkom University passionate about transforming data into actionable business insights.
+## Project Overview
 
-## 🚀 About Me
+The COVID-19 pandemic generated a massive amount of public health data across Indonesia, creating opportunities to analyze infection trends, regional disparities, and the impact of different pandemic waves. However, raw datasets often contain missing values, inconsistent formats, and fields that are not immediately suitable for analysis.
 
-Data Professional with experience in:
-- 📈 E-commerce & Customer Analytics
-- 💼 Business Intelligence Dashboards
-- 🔍 Data-Driven Decision Making
-- 🐍 Python & SQL Data Analysis
-
-**Technical Stack:** Power BI • SQL • Python • Pandas • NumPy • Scikit-learn • TensorFlow
-
-## 🎯 Featured Projects
-
-### 1. 🛒 [E-commerce Analytics Dashboard](./01-amazon-ecommerce-analytics)
-**Business Intelligence | Power BI | Customer Analytics**
-
-Analyzed 1.46M+ products and 15M+ customer reviews to identify pricing optimization opportunities and customer behavior patterns.
-
-**Key Insights:**
-- 💰 Identified optimal 21-40% discount range correlating with highest ratings (4.1-4.2★)
-- 🎯 Segmented high-value products generating $5.3M+ in Electronics category
-- 📊 Discovered 88% single-purchase behavior in top performers for retention strategies
-- ⚡ Reduced manual reporting by 60% through dashboard automation
-
-**Technologies:** Power BI, DAX, Power Query, Statistical Analysis
-
-[View Project →](./01-amazon-ecommerce-analytics)
+This project was developed as an end-to-end data analytics portfolio project to transform raw COVID-19 Indonesia data into actionable insights through data cleaning, exploratory analysis, cloud-based data warehousing, and interactive dashboard visualization. The objective was to build a complete analytics workflow that mirrors a real-world data analyst process—from raw data to business-ready insights.
 
 ---
 
-### 2. 🚗 [Global Car Sales Performance Dashboard](./02-bmw-sales-dashboard)
-**Market Analytics | Forecasting | Power BI**
+## Business Problem
 
-15-year market analysis ($253M volume, $19T revenue) across 6 regions to identify trends and growth opportunities.
+Government agencies, researchers, and decision-makers need reliable data to understand:
 
-**Key Insights:**
-- 📈 Identified fuel type transition: Hybrid leading (65M), Electric rising (63M), Diesel declining (62M)
-- 🌏 Asia as largest market (16.96%) with 7 Series as top performer (1.7M units/year)
-- ⏱️ Reduced analysis time by 50% through automated forecasting
+- How COVID-19 cases evolved over time
+- Which provinces experienced the highest impact
+- Whether population density influenced case distribution
+- How severe different pandemic waves were
+- Which regions had mortality rates significantly above the national average
 
-**Technologies:** Power BI, DAX, Time Series Analysis, Statistical Modeling
-
-[View Project →](./02-bmw-sales-dashboard)
+The available dataset contained data quality issues that could affect the accuracy of analysis and reporting. Therefore, data preparation and validation became a critical first step before generating insights.
 
 ---
 
-### 3. 💹 [Investment Portfolio Optimization System](./03-portfolio-optimization)
-**Machine Learning | Time Series | Financial Analytics**
+## Dataset
 
-End-to-end ML system for stock portfolio optimization using clustering, LSTM forecasting, and SVM classification.
+**Source:** COVID-19 Indonesia Public Dataset
 
-**Key Features:**
-- 🤖 Unsupervised clustering for intelligent stock selection
-- 📊 LSTM neural networks for Sharpe Ratio forecasting
-- 🎯 SVM for market regime classification
-- ⚙️ Comprehensive feature engineering and hyperparameter tuning
+### Dataset Size
+- 31,822 rows
+- 38 columns (raw dataset)
+- Provincial-level daily COVID-19 statistics
 
-**Technologies:** Python, TensorFlow, Scikit-learn, Pandas, NumPy, Time Series Analysis
-
-[View Project →](./03-portfolio-optimization)
-
----
-
-### 4. 🏢 [Building Energy Efficiency Analysis](./04-building-energy-analysis)
-**Regression Analysis | Cost Optimization**
-
-Multi-output regression models predicting heating/cooling loads from building parameters to optimize energy costs.
-
-**Key Results:**
-- 🎯 R² of 0.99 (heating) and 0.96 (cooling) prediction accuracy
-- 📉 Identified Glazing Area and Compactness as top drivers (94% variance explained)
-- 💡 Enabled 30-40% potential energy cost reduction through design optimization
-
-**Technologies:** Python, Scikit-learn, SVR, Random Forest, Gradient Boosting
-
-[View Project →](./04-building-energy-analysis)
-
----
-### 5. [🛒 Retail Business Analytics](./05-retail-business-analysis)
-**Business Intelligence | Customer Analytics | Data Visualization**
-
-End-to-end business intelligence project analyzing a **10,000+ retail transaction dataset** to uncover insights on pricing strategy, customer behavior, and profitability.
-
-**Key Features:**
-
-- 📊 Data cleaning and feature engineering in Excel for structured multi-dimensional analysis  
-- 🧮 Advanced Excel analytics using **SUMIF, COUNTIFS, AVERAGEIF, and INDEX-MATCH**  
-- 👥 Customer segmentation using **RFM methodology** on **5,994 unique customers**  
-- 📈 Interactive **5-page Power BI dashboard** with KPI cards, slicers, DAX measures, and cross-filtered visuals  
-- 💡 Key insight: **1–10% discount range generated $4.4M revenue with a 35% margin**, while **28% of customers were identified as Lost** for potential re-engagement  
-
-**Technologies:** Microsoft Excel (Advanced), Power BI, DAX, Business Intelligence, Data Analysis  
-
-[View Project →](./05-retail-business-analysis)
+### Key Variables
+- Date
+- Province
+- Total Cases
+- Active Cases
+- Recovered Cases
+- Death Cases
+- Case Fatality Rate (CFR)
+- Population Density
+- Growth Factor
 
 ---
 
-### 6. [🦠 COVID-19 Indonesia Analytics Dashboard](./06-covid-19-analytics)
-**Data Analytics | SQL | Business Intelligence | Data Visualization**
+## Project Workflow
 
-End-to-end analytics project analyzing 31,822 COVID-19 records across Indonesia to uncover pandemic trends, regional disparities, and wave dynamics through data cleaning, SQL transformation, and interactive dashboarding.
+### 1. Data Cleaning & Preparation
 
-### Key Features
+The raw dataset was assessed for data quality issues before analysis.
 
-- 🧹 Cleaned and transformed 31,822 records using Python (Pandas), resolving data quality issues and achieving 0 missing values
-- 🔍 Performed Exploratory Data Analysis (EDA) with 7 visualizations to identify trends, anomalies, and provincial disparities
-- 🔄 Built an end-to-end data pipeline: **Excel → Python → Google Sheets → BigQuery → Looker Studio**
-- 🗄️ Developed 7 BigQuery Views using **CTEs, Window Functions, and CASE WHEN**
-- 📊 Created a 4-page interactive Looker Studio dashboard with 24 visualizations
-- 💡Key Insight: Identified significant CFR disparities across provinces and confirmed the **Delta wave (Jul 2021)** had a greater impact than the **Omicron wave (Feb 2022)**
+Key cleaning activities included:
 
-**Technologies:** Python (Pandas),  SQL, Google BigQuery, Looker Studio, Google Sheets, Microsoft Excel
+- Converting incorrect data types into appropriate formats
+- Handling missing values using province-level median imputation
+- Removing irrelevant columns
+- Standardizing column structures
+- Validating data consistency across records
 
-[View Project →](./06-covid-19-analytics)
+After the cleaning process:
 
-
----
-
-
-## 📫 Contact Me
-
-- 📧 Email: alfarisinaufal37@gmail.com
-- 💼 LinkedIn: [linkedin.com/in/naufala37](https://linkedin.com/in/naufala37)
-- 📱 Phone: +62 857-3124-3788
-- 📍 Location: Bandung, Indonesia
-
-## 🎓 Education
-
-**Telkom University** - Bachelor of Computer Science, Informatics  
-GPA: 3.58/4.00 | 2021 - 2025
-
-## 🏆 Certifications
-
-- Fundamental Data Science - Coding Studio (Oct 2025)
-- Python Fundamentals - Coding Studio (Oct 2025)
-- Mastering Power Bi Report Design - Beginner To Advanced  – Udemy  (Nov 2025)
-- Fundamental Database Mysql – Coding Studio (Jan 2026)
+✅ 31,822 rows retained  
+✅ 37 columns retained  
+✅ 0 missing values
 
 ---
 
-⭐ **Open to opportunities in:** Data Analyst | Business Intelligence Analyst | Data Scientist
+### 2. Exploratory Data Analysis (EDA)
 
-💡 **Currently exploring:** Advanced BI techniques, Real-time Dashboards
+To better understand the pandemic's behavior across Indonesia, exploratory analysis was conducted using Python.
+
+Seven analytical visualizations were created to investigate:
+
+- Daily COVID-19 trends
+- Monthly case distribution
+- Provincial case comparisons
+- Case Fatality Rate (CFR) by province
+- Growth Factor trends
+- Correlation between variables
+- Relationship between population density and COVID-19 cases
+
+The analysis helped identify anomalies, trends, and regional differences that were later incorporated into the dashboard.
 
 ---
 
-*Last Updated: January 2026*
+### 3. Data Pipeline Development
+
+To simulate a modern analytics workflow, an end-to-end pipeline was designed:
+
+```text
+Excel
+   ↓
+Python (Pandas)
+   ↓
+CSV
+   ↓
+Google Sheets
+   ↓
+BigQuery
+   ↓
+Looker Studio
+```
+
+This structure allows data to move from raw processing into cloud-based storage and visualization while maintaining reproducibility.
+
+---
+
+### 4. SQL Data Transformation
+
+Before visualization, the cleaned data was transformed inside BigQuery to create analysis-ready datasets.
+
+Seven BigQuery Views were developed using:
+
+- Common Table Expressions (CTE)
+- Window Functions
+- CASE WHEN logic
+- Aggregations and ranking functions
+
+These views served as the primary data source for dashboard reporting.
+
+---
+
+### 5. Dashboard Development
+
+An interactive dashboard was built in Looker Studio to provide a comprehensive view of COVID-19 conditions in Indonesia.
+
+### Dashboard Structure
+
+#### Page 1 — National Overview
+- Total cases
+- Active cases
+- Recoveries
+- Deaths
+- National trends over time
+
+#### Page 2 — Pandemic Wave Analysis
+- Growth Factor analysis
+- Rolling Average trends
+- Delta vs Omicron comparison
+
+#### Page 3 — Geographic Analysis
+- Provincial performance comparison
+- Regional case distribution
+- CFR by province
+
+#### Page 4 — Deep-Dive Insights
+- Population density analysis
+- Correlation analysis
+- High-risk province identification
+
+### Dashboard Metrics
+
+- 4 dashboard pages
+- 24 visualizations
+- Interactive filters and controls
+
+---
+
+## Key Findings
+
+### 1. Significant CFR Disparities Across Provinces
+
+The national Case Fatality Rate (CFR) averaged approximately **2.47%**, but several provinces recorded substantially higher mortality rates.
+
+Notable examples:
+
+- Lampung: ~5–6%
+- East Java: ~5–6%
+
+This indicates considerable regional differences in healthcare outcomes and pandemic impact.
+
+---
+
+### 2. Delta Wave Was More Severe Than Omicron
+
+Analysis of Growth Factor and Rolling Average metrics showed that:
+
+- The Delta wave (July 2021) produced a sharper increase in cases
+- Peak case growth was significantly higher during Delta
+- Omicron generated large case volumes but lower relative severity
+
+This finding aligns with broader observations regarding the impact of the Delta variant.
+
+---
+
+### 3. Most Cases Occurred During the Recovery Phase
+
+An unexpected finding was that the majority of recorded cases occurred during the "Mereda" (Recovery) phase rather than the "Kritis" (Critical) phase.
+
+This occurred because:
+
+- Recovery periods lasted significantly longer
+- Cases accumulated over extended durations
+- Critical periods were shorter but more intense
+
+This insight highlights the importance of considering duration when interpreting pandemic phases.
+
+---
+
+## Tools & Technologies
+
+### Data Processing
+- Python
+- Pandas
+
+### Data Storage & Transformation
+- Google BigQuery
+- SQL
+
+### Data Visualization
+- Looker Studio
+
+### Supporting Tools
+- Microsoft Excel
+- Google Sheets
+
+---
+
+## Skills Demonstrated
+
+- Data Cleaning
+- Data Validation
+- Exploratory Data Analysis (EDA)
+- SQL Query Development
+- BigQuery Data Warehousing
+- Data Pipeline Design
+- Dashboard Development
+- Data Storytelling
+- Insight Generation
+- Business Intelligence
+
+---
+
+## Project Outcome
+
+This project demonstrates the complete data analytics lifecycle, from raw data preparation to executive-level reporting. By combining Python, SQL, BigQuery, and Looker Studio, the project delivers a scalable analytics solution capable of transforming complex public health data into clear, actionable insights.
