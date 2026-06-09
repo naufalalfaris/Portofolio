@@ -79,7 +79,7 @@ Multi-output regression models predicting heating/cooling loads from building pa
 [View Project →](./04-building-energy-analysis)
 
 ---
-### 5. 🛒 Retail Business Analytics
+### 5. [🛒 Retail Business Analytics](./05-retail-business-analysis)
 **Business Intelligence | Customer Analytics | Data Visualization**
 
 End-to-end business intelligence project analyzing a **10,000+ retail transaction dataset** to uncover insights on pricing strategy, customer behavior, and profitability.
@@ -97,6 +97,28 @@ End-to-end business intelligence project analyzing a **10,000+ retail transactio
 [View Project →](./05-retail-business-analysis)
 
 ---
+
+### 6. [🦠 COVID-19 Indonesia Analytics Dashboard](./06-covid-19-analytics)
+**Data Analytics | SQL | Business Intelligence | Data Visualization**
+
+End-to-end analytics project analyzing 31,822 COVID-19 records across Indonesia to uncover pandemic trends, regional disparities, and wave dynamics through data cleaning, SQL transformation, and interactive dashboarding.
+
+### Key Features
+
+- 🧹 Cleaned and transformed 31,822 records using Python (Pandas), resolving data quality issues and achieving 0 missing values
+- 🔍 Performed Exploratory Data Analysis (EDA) with 7 visualizations to identify trends, anomalies, and provincial disparities
+- 🔄 Built an end-to-end data pipeline: **Excel → Python → Google Sheets → BigQuery → Looker Studio**
+- 🗄️ Developed 7 BigQuery Views using **CTEs, Window Functions, and CASE WHEN**
+- 📊 Created a 4-page interactive Looker Studio dashboard with 24 visualizations
+- 💡Key Insight: Identified significant CFR disparities across provinces and confirmed the **Delta wave (Jul 2021)** had a greater impact than the **Omicron wave (Feb 2022)**
+
+**Technologies:** Python (Pandas),  SQL, Google BigQuery, Looker Studio, Google Sheets, Microsoft Excel
+
+[View Project →](./06-covid-19-analytics)
+
+
+---
+
 
 ## 📫 Contact Me
 
